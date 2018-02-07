@@ -1,0 +1,90 @@
+body{
+    background-repeat: no-repeat;
+    min-width: 480px;
+}
+/* Los siguientes selectores son para la página principal*/
+#encabezado{
+    text-align: center;
+}
+#principal{
+    background: white;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+#navbar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.1em;
+}
+#navlist{
+    margin: auto;
+}
+.container-fluid{
+    clear: both;
+    margin-top: 4em;
+    background: white;
+    padding: 2em;
+}
+#titulo-riesca{
+    text-align: center;
+    font-size: x-large;
+}
+#logos{
+    text-align: center;
+}
+#carouselExampleControls{
+    margin: auto;
+	margin-top: 30px;
+}
+#slogan{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#contenido{
+    text-align: justify;
+    margin: auto;
+    margin-top: 30px;
+}
+#noticia{
+    text-align: justify;
+    margin: auto;
+    margin-top: 30px;
+}
+#no-noticias{
+    font-size: large;
+}
+p{
+    text-align: justify;
+}
+figure{
+    margin: auto;
+    text-align: center;
+}
+/* Fin de selectores de página principal*/
+footer{
+    background-color: #F7F7F7;
+    border: 2px solid white;
+    color: #868E96;
+    padding: 30px;
+    border-radius: 5px;
+}
+.col-img{
+    height: auto;
+    width: 90%;
+}
+.logo{
+    height: 65px;
+    width: auto;
+}
+@media only screen and(min-width: 768px){
+    .logo{
+        height: 70px;
+    }
+}
+th{
+    text-align: center;
+}
+td{
+    text-align: left;
+}

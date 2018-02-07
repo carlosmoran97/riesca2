@@ -1,0 +1,56 @@
+title = "fichatecnica"
+url = "/fichatecnica"
+is_hidden = 0
+==
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ficha Técnica</title>
+    <link rel="stylesheet" href="{{'assets/css/bootstrap.min.css'|theme}}">
+    <link rel="stylesheet" href="{{'assets/css/style.css'|theme}}">
+</head>
+<body>
+    {% partial 'nav' %}
+    <div class="container-fluid">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Ficha técnica del proyecto</th>
+                </tr>
+            </thead>
+        </table>
+        <table class="table table-hover">
+            <tbody>
+                <tr>
+                    <td>Objeto</td>
+                    <td>Proyecto Cooperación Italiana al Desarrollo</td>
+                </tr>
+                <tr>
+                    <td>Paises beneficiarios</td>
+                    <td><strong>El Salvador, Guatemala, Honduras, Nicaragua</strong></td>
+                </tr>
+                <tr>
+                    <td>Ubicación de la intervención</td>
+                    <td><strong>El Salvador, Guatemala, Honduras, Nicaragua</strong></td>
+                </tr>
+                <tr>
+                    <td>Título del proyecto</td>
+                    <td>Proyecto   Regional   de   Formación   Aplicada   a   los
+                            escenarios de Riesgo con la vigilancia y monitoreo de los fenómenos Volcánicos, Sísmicos e Hidrogeológicos en Centro América <strong>(RIESCA)</strong>
+                            </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    {% partial 'footer' %}
+    <script src="{{'assets/javascript/jquery.js'|theme}}"></script>
+    <script src="{{'assets/javascript/bootstrap.min.js'|theme}}"></script>
+    <script>
+        var li = document.getElementById('li_fichatecnica');
+        li.classList.add('active');
+    </script>
+</body>
+</html>
