@@ -22,7 +22,7 @@ postPage = "noticia"
 <body>
     {% partial 'nav' %}
     <div class="container-fluid">
-        <p id="titulo-riesca"><em>Proyecto de formación aplicada a los Escenarios de Riesgo con la medición y monitoreo de los fenómenos volcánicos, sismicos e geohidrológicos en América Central<br>(RIESCA)</em></p>
+        <p id="titulo-riesca"><em>Proyecto de formación aplicada a los Escenarios de Riesgo con la medición y monitoreo de los fenómenos volcánicos, sismicos y geohidrológicos en América Central<br>(RIESCA)</em></p>
         <div id="logos">
             <img class="logo" src="{{'assets/img/logos/minerva.png'|theme}}" >
             <img class="logo" src="{{'assets/img/logos/unipa.jpg'|theme}}" >
@@ -41,14 +41,14 @@ postPage = "noticia"
             <img class="logo" src="{{'assets/img/logos/unah.png'|theme}}"  >
         </div>
 		<div class="row">
-			<div class="col-12 col-xl-6">
+			<div class="col-12 col-xl-5">
 				<div id="noticia">
-					<h2>ÚLTIMAS NOTICIAS</h2>
+					<h3>ÚLTIMAS NOTICIAS</h3>
 					
 					{% component 'blogPosts' %}
 				</div>
 			</div>
-			<div class="col-12 col-xl-6">
+			<div class="col-12 col-xl-7">
 			<figure>
 			<div id="carouselExampleControls" class="carousel slide bloque" data-ride="carousel">
 				<div class="carousel-inner" role="listbox">
@@ -107,11 +107,14 @@ postPage = "noticia"
 			<div class="row">
 				<div class="col">
 					<div id="contenido">
-						<h2>PROYECTO RIESCA</h2>
+						<h3>PROYECTO RIESCA</h3>
 							<p>La <strong>Cooperación Italiana</strong> sostiene, hace años, proyectos en Centroamérica sobre los peligros naturales, en particular proyectos, coordinados por la <strong>Universidad de Palermo (UNIPA)-Italia</strong>, de formación sobre el tema del impacto de los desastres naturales en territorios vulnerables desde el punto de vista socio-económico y territorial. El Proyecto recientemente concluido, “Realización de Red Universitaria Ítalo – Centroamericana sobre análisis y evaluaciones de peligros naturales”, alcanzó de manera satisfactoria los objetivos principales. Unos cien estudiantes se graduaron con las Maestrías y Cursos de Especialización en las Universidades de la Red Italo-Centroamericana y eso facilitó su incorporación en Instituciones del sector, gobernativas e internacionales, y desencadenó un proceso de transmisión de los conocimientos a las Comunidades de las zonas vulnerables. Todo eso para crear una conexión siempre más estrecha entre Escuelas, Instituciones, Organismos y Comunidad.</p>
-						</div>
+						<button type="button" class="btn btn-link" data-toggle="collapse" data-target="#articulo" aria-expanded="false" aria-controls="articulo">Leer más</button>
+					<br>	<br>
+					</div>
 				</div>
 			</div>
+			<div class="collapse" id="articulo">
 			<div class="row">
 				<div class="col-12 col-md-7">
 					<p>El nuevo <strong>proyecto RIESCA</strong> propone consolidar la red interuniversitaria entre las Universidades de Palermo (UNIPA), de El Salvador (UES), de Guatemala (USAC), de Nicaragua (IGG- CIGEO/UNAN-Managua) y de Honduras (IHCIT/UNAH), con la colaboración italiana del Instituto Nacional de Oceanografia y Geofísica Esperimental (OGS) y del Instituto de Geociencias y Georecursos del Consejo Nacional de Investigaciones (CNR/IGG), mejorarndo las habilidades de los técnicos del sector y la integración entre el Ministerio del Medio Ambiente – Observatorio Ambiental (MARN), de la Comisión Permanente de Contingencias (COPECO) y de la Protección Civil de El Salvador, del Centro de Coordinación para la Prevención de los Desastres Naturales en América Central (CEPREDENAC), de la Coordinadora Nacional para la Reducción de Desastres (CONRED) y del Instituto de Sismología, Vulcanología, Meteorología y Hidrología (INSIVUMEH) de Guatemala, de la Comision Permanente de Contingencias (COPECO) de Honduras; del Sistema Nacional Prevencion de Desastres (SINAPRED) y el Instituto Nacional de Estudios Territoriales (INETER) di Nicaragua. Asimismo, está prevista la colaboración de la Agenzia Spaziale Italiana (ASI) y de la Oficina de Planificación del Área Metropolitana de San Salvador (OPAMSS). </p>
@@ -150,7 +153,6 @@ postPage = "noticia"
 						<img class="col-img" src="{{'assets/img/deslizamiento.jpg'|theme}}" alt="">
 						<br>
 						<caption><em>Deslizamiento de Las Colinas (El Salvador), 2001</em></caption>
-						<br><br>
 					</figure>
 				</div>
 				
@@ -164,6 +166,7 @@ postPage = "noticia"
 					</p>
 				</div>
 			</div>
+		</div>
     </div>
 	{% partial 'footer'%}
     <script src="{{'assets/javascript/jquery.js'|theme}}"></script>

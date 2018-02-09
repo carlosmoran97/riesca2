@@ -2,8 +2,10 @@ title = "fichatecnica"
 url = "/fichatecnica"
 is_hidden = 0
 ==
+title = "fichatecnica" url = "/fichatecnica" is_hidden = 0 ==
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,37 +14,93 @@ is_hidden = 0
     <link rel="stylesheet" href="{{'assets/css/bootstrap.min.css'|theme}}">
     <link rel="stylesheet" href="{{'assets/css/style.css'|theme}}">
 </head>
+
 <body>
     {% partial 'nav' %}
     <div class="container-fluid">
+        <h1 id="ficha-tecnica-title">Ficha técnica del proyecto</h1>
         <table class="table table-hover">
-            <thead>
-                <tr>
-                    <th>Ficha técnica del proyecto</th>
-                </tr>
-            </thead>
-        </table>
-        <table class="table table-hover">
-            <tbody>
-                <tr>
-                    <td>Objeto</td>
-                    <td>Proyecto Cooperación Italiana al Desarrollo</td>
-                </tr>
-                <tr>
-                    <td>Paises beneficiarios</td>
-                    <td><strong>El Salvador, Guatemala, Honduras, Nicaragua</strong></td>
-                </tr>
-                <tr>
-                    <td>Ubicación de la intervención</td>
-                    <td><strong>El Salvador, Guatemala, Honduras, Nicaragua</strong></td>
-                </tr>
-                <tr>
-                    <td>Título del proyecto</td>
-                    <td>Proyecto   Regional   de   Formación   Aplicada   a   los
-                            escenarios de Riesgo con la vigilancia y monitoreo de los fenómenos Volcánicos, Sísmicos e Hidrogeológicos en Centro América <strong>(RIESCA)</strong>
-                            </td>
-                </tr>
-            </tbody>
+            <tr>
+                <td>Objeto</td>
+                <td>Proyecto cooperacion Italiana al desarrollo</td>
+            </tr>
+            <tr>
+                <td class="left">Paises Beneficiarios</td>
+                <td class="left">El Salvador, Guatemala, Honduras , Nicaragua</td>
+            </tr>
+            <tr>
+                <td class="left">Ubicacion de la intervencion</td>
+                <td class="left">El Salvador, Guatemala, Honduras , Nicaragua</td>
+            </tr>
+            <tr>
+                <td class="left">Titulo de Proyecto</td>
+                <td class="left">Proyecto Regional de Formación Aplicada a los escenarios de Riesgo con la vigilancia y monitoreo de los fenómenos
+                    Volcánicos, Sísmicos e Hidrogeológicos en Centro América (RIESCA)
+                </td>
+            </tr>
+            <tr>
+                <td class="left">Sector</td>
+                <td class="left">Formacion e Investigacion</td>
+            </tr>
+            <tr>
+                <td class="left">Contrapartes Centroamericanas</td>
+                <td class="left"> - UES - Universidad de El Salvador. </br>
+                    - USAC- Universidad de San Carlos de Guatemala. </br>
+                    - UNAH – Universidad Nacional Autonoma de Honduras. </br>
+                    - UNAN-Managua – Universidad Nacional Autónoma de Nicaragua. </br>
+                    - MARN –Ministerio del Ambiente y Recursos Naturales (Observatorio ambiental) de El Salvador. </br>
+                    - Protección Civil de El Salvador </br>
+                    - CONRED – Coordinadora Nacional Reducción de Desastres de Guatemala. </br>
+                    - INSIVUMEH – Instituto de Sismología, Vulcanesimo, Meteorología e Hidrología de Guatemala. </br>
+                    - COPECO – Comisión Permanente de Contingencias de Honduras. </br>
+                    - SINAPRED – Sistema Nacional de Prevención de Desastres de Nicaragua .</br>
+                    - INETER- Instituto Nicaragüense de Estudios Territoriales de Nicaragua . </br>
+                    - CEPREDENAC – Centro de Coordinación de Prevención de Desastres Naturales en América Central . </br>
+
+                </td>
+            </tr>
+            <tr>
+                <td class="left">Organismos patrocinadores</td>
+                <td class="left">
+                    - SICA - Sistema de Integracion Centroamericanas .</br>
+                    - CSUCA- Consejo Superior Universitario Centroamericano .</br>
+                    - IILA - Instituto ITALO - Latino Americano . </br>
+                </td>
+            </tr>
+            <tr>
+                <td class="left">ente coordinador de Proyecto por Italia</td>
+                <td class="left">UNIPA - Universidad de Palermo (Italia)</td>
+            </tr>
+            </td>
+            </tr>
+            <tr>
+                <td class="left">Responsable y Coordinador del proyecto (UNIPA)</td>
+                <td class="left">
+                    Oficina de Cooperacion Internacional (UNIPA): </br>
+                    Delegado de cooperacion internacional : Prof: Pasquale Assennato. </br>
+                    Coordinador, Tecnico-Cientifico: Prof. Guiseppe Giunta.
+                </td>
+            </tr>
+            <tr>
+                <td class="left">Otras entidades italianas Ejecutoras</td>
+                <td class="left">CNR/ IGG –Consejo Nacional de la Investigación /Instituto de Geociencias y Georecursos, Pisa (Italia). </br>
+                    OGS- Instituto Nacional de Oceanografia y Geofísica Esperimental, Trieste (Italia).
+                </td>
+            </tr>
+            <tr>
+                <td class="left">Duracion</td>
+                <td class="left">24 Meses</td>
+            </tr>
+            </td>
+            </tr>
+            <tr>
+                <td class="left">Financiamiento</td>
+                <td class="left">
+                    Cooperacion Italiana DGCS - MAECI/AICS.
+                </td>
+            </tr>
+            </tr>
+
         </table>
     </div>
     {% partial 'footer' %}
@@ -53,4 +111,5 @@ is_hidden = 0
         li.classList.add('active');
     </script>
 </body>
+
 </html>
